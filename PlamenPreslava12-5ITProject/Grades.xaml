@@ -18,17 +18,17 @@
         <Rectangle Margin="174,10,174,97.667" Fill="#FFF3FFFF" RadiusX="7" RadiusY="7" />
         <TextBlock TextAlignment="Center" HorizontalAlignment="Center" Margin="0,43,0,0" Name="textBlockUsername" Text="Grades" VerticalAlignment="Top" Width="110" FontFamily="Verdana" FontSize="12" Foreground="#FF095E94"/>
         <TextBlock Foreground="#FF095E94" HorizontalAlignment="Left" Margin="190,77,0,0" Name="gradeMath" Text="Math" VerticalAlignment="Top" Width="110" FontFamily="Verdana" FontSize="7"/>
-        <DataGrid BorderThickness="0" Height="12" HorizontalAlignment="Center" Margin="0,87,0,0" x:Name="textBoxMath" VerticalAlignment="Top" Width="152" Foreground="#FF095E94" FontSize="8.7"/>
+        <TextBlock Height="12" HorizontalAlignment="Center" Margin="0,87,0,0" x:Name="textBlockMath" VerticalAlignment="Top" Width="152" Foreground="#FF095E94" FontSize="8.7"/>
         <TextBlock Foreground="#FF095E94" HorizontalAlignment="Left" Margin="190,107,0,0" Name="gradeInformatics" Text="Informatics" VerticalAlignment="Top" Width="110" FontFamily="Verdana" FontSize="7"/>
-        <DataGrid BorderThickness="0" Height="12" HorizontalAlignment="Center" Margin="0,117,0,0" x:Name="textBoxInformatics" VerticalAlignment="Top" Width="152" Foreground="#FF095E94" FontSize="8.7"/>
+        <TextBlock Height="12" HorizontalAlignment="Center" Margin="0,117,0,0" x:Name="textBlockInformatics" VerticalAlignment="Top" Width="152" Foreground="#FF095E94" FontSize="8.7"/>
         <TextBlock Foreground="#FF095E94" HorizontalAlignment="Left" Margin="190,137,0,0" Name="gradeBiology" Text="Biology" VerticalAlignment="Top" Width="110" FontFamily="Verdana" FontSize="7"/>
-        <DataGrid BorderThickness="0" Height="12" HorizontalAlignment="Center" Margin="0,147,0,0" x:Name="textBoxBiology" VerticalAlignment="Top" Width="152" Foreground="#FF095E94" FontSize="8.7"/>
+        <TextBlock Height="12" HorizontalAlignment="Center" Margin="0,147,0,0" x:Name="textBlockBiology" VerticalAlignment="Top" Width="152" Foreground="#FF095E94" FontSize="8.7"/>
         <TextBlock Foreground="#FF095E94" HorizontalAlignment="Left" Margin="190,167,0,0" Name="gradeEnglish" Text="English" VerticalAlignment="Top" Width="110" FontFamily="Verdana" FontSize="7"/>
-        <DataGrid BorderThickness="0" Height="12" HorizontalAlignment="Center" x:Name="textBoxEnglish" VerticalAlignment="Top" Width="152" Foreground="#FF095E94" FontSize="8.7" Margin="0,178,0,0"/>
+        <TextBlock Height="12" HorizontalAlignment="Center" x:Name="textBlockEnglish" VerticalAlignment="Top" Width="152" Foreground="#FF095E94" FontSize="8.7" Margin="0,178,0,0"/>
         <TextBlock Foreground="#FF095E94" HorizontalAlignment="Left" Margin="190,197,0,0" Name="gradeWorldHistory" Text="World History" VerticalAlignment="Top" Width="110" FontFamily="Verdana" FontSize="7"/>
+        <TextBlock Height="12" HorizontalAlignment="Center" Margin="0,207,0,0" x:Name="textBlockWorldHistory" VerticalAlignment="Top" Width="152" Foreground="#FF095E94" FontSize="8.7"/>
         <Rectangle Margin="241,239,241,123" Fill="#FFC6E4EF" RadiusX="3" RadiusY="3" />
         <Button Click="Return_Click" BorderThickness=".1" Background="Transparent" Content="Return" Height="17" HorizontalAlignment="Center" Margin="0,239,0,0" Name="Return" VerticalAlignment="Top" Width="50"  FontSize="9" Foreground="#FF095E94" BorderBrush="#FF79FFD7"/>
-        <DataGrid BorderThickness="0" Height="12" HorizontalAlignment="Center" Margin="0,207,0,0" x:Name="textBoxWorldHistory" VerticalAlignment="Top" Width="152" Foreground="#FF095E94" FontSize="8.7"/>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="532"/>
         </Grid.ColumnDefinitions>

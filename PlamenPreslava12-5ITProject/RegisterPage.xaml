@@ -21,14 +21,12 @@
         <TextBox BorderThickness="0" Height="12" HorizontalAlignment="Left" Margin="167,49,0,0" x:Name="textBoxLastName" VerticalAlignment="Top" Width="90" Background="#FFC6E4EF" Foreground="Black" FontSize="8.7"/>
         <TextBlock Foreground="#FF095E94" HorizontalAlignment="Left" Margin="272,51,0,0" Name="firstNames" Text="First Names:" VerticalAlignment="Top" Width="110" FontFamily="Verdana" FontSize="7"/>
         <TextBox BorderThickness="0" Height="12" HorizontalAlignment="Left" Margin="338,49,0,0" x:Name="textBoxFirstName" VerticalAlignment="Top" Width="90" Background="#FFC6E4EF" Foreground="Black" FontSize="8.7"/>
-        <TextBlock Foreground="#FF095E94" HorizontalAlignment="Left" Margin="115,76,0,0" Name="email" Text="Email:" VerticalAlignment="Top" Width="110" FontFamily="Verdana" FontSize="7"/>
-        <TextBox BorderThickness="0" Height="12" HorizontalAlignment="Left" Margin="167,74,0,0" x:Name="textBoxEmail" VerticalAlignment="Top" Width="90" Background="#FFC6E4EF" Foreground="Black" FontSize="8.7"/>
-        <TextBlock Foreground="#FF095E94" HorizontalAlignment="Left" Margin="272,76,0,0" Name="telephone" Text="Telephone:" VerticalAlignment="Top" Width="110" FontFamily="Verdana" FontSize="7"/>
-        <TextBox BorderThickness="0" Height="12" HorizontalAlignment="Left" Margin="338,74,0,0" x:Name="textBoxTelephone" VerticalAlignment="Top" Width="90" Background="#FFC6E4EF" Foreground="Black" FontSize="8.7"/>
+        <TextBlock Foreground="#FF095E94" HorizontalAlignment="Left" Margin="273,101,0,0" Name="email" Text="Email:" VerticalAlignment="Top" Width="110" FontFamily="Verdana" FontSize="7"/>
+        <TextBox BorderThickness="0" Height="12" HorizontalAlignment="Left" Margin="338,99,0,0" x:Name="textBoxEmail" VerticalAlignment="Top" Width="90" Background="#FFC6E4EF" Foreground="Black" FontSize="8.7"/>
+        <TextBlock Foreground="#FF095E94" HorizontalAlignment="Left" Margin="115,77,0,0" Name="telephone" Text="Telephone:" VerticalAlignment="Top" Width="110" FontFamily="Verdana" FontSize="7"/>
+        <TextBox BorderThickness="0" Height="12" HorizontalAlignment="Left" Margin="167,74,0,0" x:Name="textBoxTelephone" VerticalAlignment="Top" Width="261" Background="#FFC6E4EF" Foreground="Black" FontSize="8.7"/>
         <TextBlock Foreground="#FF095E94" HorizontalAlignment="Left" Margin="115,101,0,0" Name="gender" Text="Gender:" VerticalAlignment="Top" Width="110" FontFamily="Verdana" FontSize="7"/>
         <TextBox BorderThickness="0" Height="12" HorizontalAlignment="Left" Margin="167,99,0,0" x:Name="textBoxGender" VerticalAlignment="Top" Width="90" Background="#FFC6E4EF" Foreground="Black" FontSize="8.7"/>
-        <TextBlock Foreground="#FF095E94" HorizontalAlignment="Left" Margin="272,101,0,0" Name="age" Text="Age:" VerticalAlignment="Top" Width="110" FontFamily="Verdana" FontSize="7"/>
-        <TextBox BorderThickness="0" Height="12" HorizontalAlignment="Left" Margin="338,99,0,0" x:Name="textBoxAge" VerticalAlignment="Top" Width="90" Background="#FFC6E4EF" Foreground="Black" FontSize="8.7"/>
         <TextBlock Foreground="#FF095E94" HorizontalAlignment="Left" Margin="115,126,0,0" Name="studentID" Text="StudentID:" VerticalAlignment="Top" Width="110" FontFamily="Verdana" FontSize="7"/>
         <TextBox BorderThickness="0" Height="12" HorizontalAlignment="Left" Margin="167,124,0,0" x:Name="textBoxStudentID" VerticalAlignment="Top" Width="90" Background="#FFC6E4EF" Foreground="Black" FontSize="8.7"/>
         <TextBlock Foreground="#FF095E94" HorizontalAlignment="Left" Margin="272,126,0,0" Name="class" Text="Class:" VerticalAlignment="Top" Width="110" FontFamily="Verdana" FontSize="7"/>

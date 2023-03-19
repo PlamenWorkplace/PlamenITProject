@@ -18,6 +18,7 @@ using MySql.Data.MySqlClient;
 
 namespace PlamenPreslava12_5ITProject
 {
+
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
@@ -27,6 +28,8 @@ namespace PlamenPreslava12_5ITProject
         {
             InitializeComponent();
         }
+
+        
 
         private void LogIn_Click(object sender, RoutedEventArgs e)
         {
@@ -46,6 +49,7 @@ namespace PlamenPreslava12_5ITProject
                 if (count == 1)
                 {
                     HomePage homePage = new HomePage();
+                    homePage.StudentID = textBoxStudentID.Text;
                     homePage.Show();
                     this.Close();
                     MessageBox.Show($"Welcome, {textBoxUsername.Text} ");

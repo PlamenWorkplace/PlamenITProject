@@ -18,24 +18,22 @@
         <Rectangle Margin="174,10,174,97.667" Fill="#FFF3FFFF" RadiusX="7" RadiusY="7" />
         <Image Source="C:\Users\plamk\Downloads\istockphoto-1332100919-612x612.jpg" Margin="191,12,282,279" RenderTransformOrigin="0.83,0.376"/>
         <TextBlock Foreground="#FF095E94" HorizontalAlignment="Left" Margin="255,25,0,0" Name="lastName" Text="Last Name" VerticalAlignment="Top" Width="110" FontFamily="Verdana" FontSize="6"/>
-        <DataGrid BorderThickness="0" Height="11" HorizontalAlignment="Left" Margin="255,34,0,0" x:Name="textBoxLastNames" VerticalAlignment="Top" Width="81" Foreground="#FF095E94" FontSize="8.7"/>
+        <TextBlock Height="11" HorizontalAlignment="Left" Margin="255,34,0,0" x:Name="textBlockLastNames" VerticalAlignment="Top" Width="81" Foreground="#FF095E94" FontSize="8.7"/>
         <TextBlock Foreground="#FF095E94" HorizontalAlignment="Left" Margin="255,48,0,0" Name="firstNames" Text="First Names" VerticalAlignment="Top" Width="110" FontFamily="Verdana" FontSize="6"/>
-        <DataGrid BorderThickness="0" Height="11" HorizontalAlignment="Left" Margin="255,57,0,0" x:Name="textBoxFirstNames" VerticalAlignment="Top" Width="81" Foreground="#FF095E94" FontSize="8.7"/>
+        <TextBlock Height="11" HorizontalAlignment="Left" Margin="255,57,0,0" x:Name="textBlockFirstNames" VerticalAlignment="Top" Width="81" Foreground="#FF095E94" FontSize="8.7"/>
         <TextBlock Foreground="#FF095E94" HorizontalAlignment="Left" Margin="255,71,0,0" Name="gender" Text="Gender" VerticalAlignment="Top" Width="110" FontFamily="Verdana" FontSize="6"/>
-        <DataGrid BorderThickness="0" Height="11" HorizontalAlignment="Left" Margin="255,80,0,0" x:Name="textBoxGender" VerticalAlignment="Top" Width="38" Foreground="#FF095E94" FontSize="8.7"/>
-        <TextBlock Foreground="#FF095E94" HorizontalAlignment="Left" Margin="298,71,0,0" Name="age" Text="Age" VerticalAlignment="Top" Width="110" FontFamily="Verdana" FontSize="6"/>
-        <DataGrid BorderThickness="0" Height="11" HorizontalAlignment="Left" Margin="298,80,0,0" x:Name="textBoxAge" VerticalAlignment="Top" Width="38" Foreground="#FF095E94" FontSize="8.7"/>
+        <TextBlock Height="11" HorizontalAlignment="Left" Margin="255,80,0,0" x:Name="textBlockGender" VerticalAlignment="Top" Width="81" Foreground="#FF095E94" FontSize="8.7"/>
         <TextBlock Foreground="#FF095E94" HorizontalAlignment="Left" Margin="191,101,0,0" Name="email" Text="Email" VerticalAlignment="Top" Width="110" FontFamily="Verdana" FontSize="6"/>
-        <DataGrid BorderThickness="0" Height="11" HorizontalAlignment="Left" Margin="191,110,0,0" Name="textBoxEmail" VerticalAlignment="Top" Width="81" Foreground="#FF095E94" FontSize="8.7"/>
+        <TextBlock Height="11" HorizontalAlignment="Left" Margin="191,110,0,0" Name="textBlockEmail" VerticalAlignment="Top" Width="81" Foreground="#FF095E94" FontSize="8.7"/>
         <TextBlock Foreground="#FF095E94" HorizontalAlignment="Left" Margin="191,124,0,0" Name="telephoneNumber" Text="Telephone Number" VerticalAlignment="Top" Width="110" FontFamily="Verdana" FontSize="6"/>
-        <DataGrid BorderThickness="0" Height="11" HorizontalAlignment="Left" Margin="191,133,0,0" x:Name="textBoxTelephoneNumber" VerticalAlignment="Top" Width="81" Foreground="#FF095E94" FontSize="8.7"/>
+        <TextBlock Height="11" HorizontalAlignment="Left" Margin="191,133,0,0" x:Name="textBlockTelephoneNumber" VerticalAlignment="Top" Width="81" Foreground="#FF095E94" FontSize="8.7"/>
         <TextBlock HorizontalAlignment="Left" Margin="191,160,0,0" Name="textBlockParentInfo" Text="Parent's Information" VerticalAlignment="Top" Width="110" FontFamily="Verdana" FontSize="10" Foreground="#FF095E94"/>
         <TextBlock Foreground="#FF095E94" HorizontalAlignment="Left" x:Name="parentLastName" Text="Last Name" VerticalAlignment="Top" Width="110" FontFamily="Verdana" FontSize="6" Margin="191,182,0,0"/>
-        <DataGrid BorderThickness="0" Height="11" HorizontalAlignment="Left" Margin="191,191,0,0" x:Name="textBoxParentLastName" VerticalAlignment="Top" Width="81" Foreground="#FF095E94" FontSize="8.7"/>
+        <TextBlock Height="11" HorizontalAlignment="Left" Margin="191,191,0,0" x:Name="textBlockParentLastName" VerticalAlignment="Top" Width="81" Foreground="#FF095E94" FontSize="8.7"/>
         <TextBlock Foreground="#FF095E94" HorizontalAlignment="Left" Margin="191,205,0,0" x:Name="parentFirstNames" Text="First Names" VerticalAlignment="Top" Width="110" FontFamily="Verdana" FontSize="6"/>
-        <DataGrid BorderThickness="0" Height="11" HorizontalAlignment="Left" Margin="191,214,0,0" x:Name="textBoxParentFirstNames" VerticalAlignment="Top" Width="81" Foreground="#FF095E94" FontSize="8.7"/>
+        <TextBlock Height="11" HorizontalAlignment="Left" Margin="191,214,0,0" x:Name="textBlockParentFirstNames" VerticalAlignment="Top" Width="81" Foreground="#FF095E94" FontSize="8.7"/>
         <TextBlock Foreground="#FF095E94" HorizontalAlignment="Left" Margin="191,228,0,0" x:Name="parentTelephoneNumber" Text="Telephone Number" VerticalAlignment="Top" Width="110" FontFamily="Verdana" FontSize="6"/>
-        <DataGrid BorderThickness="0" Height="11" HorizontalAlignment="Left" Margin="191,237,0,0" x:Name="textBoxParentTelephoneNumber" VerticalAlignment="Top" Width="81" Foreground="#FF095E94" FontSize="8.7"/>
+        <TextBlock Height="11" HorizontalAlignment="Left" Margin="191,237,0,0" x:Name="textBlockParentTelephoneNumber" VerticalAlignment="Top" Width="81" Foreground="#FF095E94" FontSize="8.7"/>
         <Rectangle Margin="292,251,190,111" Fill="#FFC6E4EF" RadiusX="3" RadiusY="3" />
         <Button Click="Return_Click" BorderThickness=".1" Background="Transparent" Content="Return" Height="17" HorizontalAlignment="Left" Margin="292,251,0,0" Name="Return" VerticalAlignment="Top" Width="50"  FontSize="9" Foreground="#FF095E94" BorderBrush="#FF79FFD7"/>
         <Grid.ColumnDefinitions>
@@ -45,5 +43,7 @@
             <RowDefinition Height="379" />
         </Grid.RowDefinitions>
     </Grid>
+
+
 
 </Window>

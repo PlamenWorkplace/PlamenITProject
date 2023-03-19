@@ -16,21 +16,21 @@
             </Rectangle.Fill>
         </Rectangle>
         <Rectangle Margin="62,10,286,98" Fill="#FFF3FFFF" RadiusX="7" RadiusY="7" />
-        <TextBlock TextAlignment="Center" HorizontalAlignment="Left" Margin="101,69,0,0" Name="textBlockClass" Text="Class" VerticalAlignment="Top" Width="110" FontFamily="Verdana" FontSize="12" Foreground="#FF095E94" RenderTransformOrigin="0.483,2.697"/>
+        <TextBlock TextAlignment="Center" HorizontalAlignment="Left" Margin="101,69,0,0" Name="textClass" Text="Class" VerticalAlignment="Top" Width="110" FontFamily="Verdana" FontSize="12" Foreground="#FF095E94" RenderTransformOrigin="0.483,2.697"/>
         <TextBlock Foreground="#FF095E94" HorizontalAlignment="Left" Margin="101,103,0,0" Name="class" Text="Class" VerticalAlignment="Top" Width="110" FontFamily="Verdana" FontSize="7"/>
-        <DataGrid BorderThickness="0" Height="12" HorizontalAlignment="Left" Margin="101,114,0,0" x:Name="textBoxClass" VerticalAlignment="Top" Width="110" Foreground="#FF095E94" FontSize="8.7"/>
-        <TextBlock Foreground="#FF095E94" HorizontalAlignment="Left" Margin="101,137,0,0" Name="classRepresentative" Text="Class Representative" VerticalAlignment="Top" Width="110" FontFamily="Verdana" FontSize="7"/>
-        <DataGrid BorderThickness="0" Height="12" HorizontalAlignment="Left" Margin="101,148,0,0" x:Name="textBoxClassRepresentative" VerticalAlignment="Top" Width="110" Foreground="#FF095E94" FontSize="8.7"/>
+        <TextBlock Height="12" HorizontalAlignment="Left" Margin="101,114,0,0" x:Name="textBlockClass" VerticalAlignment="Top" Width="110" Foreground="#FF095E94" FontSize="8.7"/>
+        <TextBlock Foreground="#FF095E94" HorizontalAlignment="Left" Margin="101,137,0,0" Name="classRepresentative" Text="Class Representative ID" VerticalAlignment="Top" Width="110" FontFamily="Verdana" FontSize="7"/>
+        <TextBlock Height="12" HorizontalAlignment="Left" Margin="101,148,0,0" x:Name="textBlockClassRepresentative" VerticalAlignment="Top" Width="110" Foreground="#FF095E94" FontSize="8.7"/>
         <TextBlock Foreground="#FF095E94" HorizontalAlignment="Left" Margin="101,171,0,0" Name="profile" Text="Profile" VerticalAlignment="Top" Width="110" FontFamily="Verdana" FontSize="7"/>
-        <DataGrid BorderThickness="0" Height="12" HorizontalAlignment="Left" Margin="101,182,0,0" x:Name="textBoxProfile" VerticalAlignment="Top" Width="110" Foreground="#FF095E94" FontSize="8.7"/>
+        <TextBlock Height="12" HorizontalAlignment="Left" Margin="101,182,0,0" x:Name="textBlockProfile" VerticalAlignment="Top" Width="110" Foreground="#FF095E94" FontSize="8.7"/>
         <Rectangle Margin="285,10,63,98" Fill="#FFF3FFFF" RadiusX="7" RadiusY="7" />
-        <TextBlock TextAlignment="Center" HorizontalAlignment="Left" Margin="324,69,0,0" x:Name="textBlockProfileSubject" Text="Profile Subject" VerticalAlignment="Top" Width="110" FontFamily="Verdana" FontSize="12" Foreground="#FF095E94" RenderTransformOrigin="0.483,2.697"/>
+        <TextBlock TextAlignment="Center" HorizontalAlignment="Left" Margin="324,69,0,0" x:Name="textProfileSubject" Text="Profile Subject" VerticalAlignment="Top" Width="110" FontFamily="Verdana" FontSize="12" Foreground="#FF095E94" RenderTransformOrigin="0.483,2.697"/>
         <TextBlock Foreground="#FF095E94" HorizontalAlignment="Left" Margin="324,103,0,0" x:Name="profileSubject" Text="Profile Subject" VerticalAlignment="Top" Width="110" FontFamily="Verdana" FontSize="7"/>
-        <DataGrid BorderThickness="0" Height="12" HorizontalAlignment="Left" Margin="324,114,0,0" x:Name="textBoxProfileSubject" VerticalAlignment="Top" Width="110" Foreground="#FF095E94" FontSize="8.7"/>
+        <TextBlock Height="12" HorizontalAlignment="Left" Margin="324,114,0,0" x:Name="textBlockProfileSubject" VerticalAlignment="Top" Width="110" Foreground="#FF095E94" FontSize="8.7"/>
         <TextBlock Foreground="#FF095E94" HorizontalAlignment="Left" Margin="324,137,0,0" x:Name="hoursPerYear" Text="Hours Per Year" VerticalAlignment="Top" Width="110" FontFamily="Verdana" FontSize="7"/>
-        <DataGrid BorderThickness="0" Height="12" HorizontalAlignment="Left" Margin="324,148,0,0" x:Name="textBoxHoursPerYear" VerticalAlignment="Top" Width="110" Foreground="#FF095E94" FontSize="8.7"/>
-        <TextBlock Foreground="#FF095E94" HorizontalAlignment="Left" Margin="324,171,0,0" x:Name="teacher" Text="Teacher" VerticalAlignment="Top" Width="110" FontFamily="Verdana" FontSize="7"/>
-        <DataGrid BorderThickness="0" Height="12" HorizontalAlignment="Left" Margin="324,182,0,0" x:Name="textBoxTeacher" VerticalAlignment="Top" Width="110" Foreground="#FF095E94" FontSize="8.7"/>
+        <TextBlock Height="12" HorizontalAlignment="Left" Margin="324,148,0,0" x:Name="textBlockHoursPerYear" VerticalAlignment="Top" Width="110" Foreground="#FF095E94" FontSize="8.7"/>
+        <TextBlock Foreground="#FF095E94" HorizontalAlignment="Left" Margin="324,171,0,0" x:Name="teacher" Text="Teachers" VerticalAlignment="Top" Width="110" FontFamily="Verdana" FontSize="7"/>
+        <TextBlock Height="12" HorizontalAlignment="Left" Margin="324,182,0,0" x:Name="textBlockTeacher" VerticalAlignment="Top" Width="110" Foreground="#FF095E94" FontSize="8.7"/>
         <Rectangle Margin="252,10,252,352" Fill="#FFC6E4EF" RadiusX="3" RadiusY="3" />
         <Button Click="Return_Click" BorderThickness=".1" Background="Transparent" Content="Return" Height="17" HorizontalAlignment="Center" Margin="0,10,0,0" Name="Return" VerticalAlignment="Top" Width="28"  FontSize="7" Foreground="#FF095E94" BorderBrush="#FF79FFD7"/>
         <Grid.ColumnDefinitions>

@@ -23,11 +23,12 @@ namespace PlamenPreslava12_5ITProject
         {
             InitializeComponent();
         }
-
+        public string StudentID;
         private void Return_Click(object sender, RoutedEventArgs e)
         {
-            var window = new HomePage();
-            window.Show();
+            HomePage homePage = new HomePage();
+            homePage.StudentID = StudentID;
+            homePage.Show();
             this.Close();
         }
     }
